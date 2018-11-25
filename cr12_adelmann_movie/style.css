@@ -1,0 +1,72 @@
+/*
+Theme Name: Travel Blog
+Author: Nico Adelmann
+Version: 1.0
+*/
+
+body {
+  margin-top: 50px;
+}
+nav{
+	margin-top: 20px;
+}
+.main_column{
+		width: 66%;
+		float: left;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+}
+.secondary_column{
+		width: 30%;
+		float: right;
+
+
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	
+}
+.imgcard{
+	width: 200px;
+	height: 200px;
+}
+.card_travel{
+	width: 220px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.single_post{
+		display: flex;
+		flex-flow: row;
+		padding: 20px;
+}
+.single_post img{
+	width: 400px;
+	height: 400px;
+}
+.single_right_side{
+	margin-left: 50px;
+	width: 300px;
+}
+footer{
+	margin-top: 500px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
