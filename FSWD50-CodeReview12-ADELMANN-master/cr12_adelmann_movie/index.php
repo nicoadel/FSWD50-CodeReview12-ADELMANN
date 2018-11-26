@@ -9,10 +9,10 @@ get_header();
 
 while (have_posts()){ 
   the_post();?>
-  <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
+  <div class="col-lg-4 col-md-6 col-sm-12 col-12 portfolio-item">
           <div class="card h-100 card_travel">
-            <a  href="<?php the_permalink(); ?>"><img class="card-img-top imgcard" src=<?php the_post_thumbnail(); ?>  </a>
-            <div class="card-body">
+            <a  href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?> </a>
+            <div class="card-body card-index">
               <h4 class="card-title">
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
               </h4>

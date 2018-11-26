@@ -3,7 +3,7 @@ get_header();
 while (have_posts()){
 	the_post(); ?>
         <div class="single_post">
-          <img class="card-img-top" src=<?php the_post_thumbnail(); ?> 
+         <?php the_post_thumbnail(); ?>
           <div class="single_right_side">
              <h2 class="card-title">
                 <?php the_title(); ?>
